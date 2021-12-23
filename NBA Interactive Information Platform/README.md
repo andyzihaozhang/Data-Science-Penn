@@ -1,4 +1,4 @@
-# CIS-550-NBA-Dream-Team-Project
+# NBA Interactive Information Platform
 
 #### Contributers: Yizheng Wang, Zijing Wu, Yulin Yu, Zihao Zhang
 #### The app is deployed at: https://league-pass.herokuapp.com/
