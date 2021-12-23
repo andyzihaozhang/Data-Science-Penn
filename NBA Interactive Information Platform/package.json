@@ -1,0 +1,43 @@
+{
+  "name": "cis-550-nba-dream-team-project",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "description": "final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage --forceExit",
+    "start": "node server.js",
+    "build": "npm install && cd ./client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulinyu1013/CIS-550-NBA-Dream-Team-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yulinyu1013/CIS-550-NBA-Dream-Team-Project/issues"
+  },
+  "homepage": "https://github.com/yulinyu1013/CIS-550-NBA-Dream-Team-Project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.4.5",
+    "knex": "^0.95.14",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "client"
+    ]
+  },
+  "env": {
+    "jest": true
+  }
+}

@@ -1,0 +1,176 @@
+.homepage-container{
+  width: 100%;
+  height: 950px;
+}
+
+.navbar {
+  position: fixed;
+	top: 0;
+  width: 100%;
+  height: max-content;
+  z-index: 1;
+}
+
+.main-page {
+  margin-top: 80px;
+  height: 100%;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  overflow-y: scroll;
+}
+
+.main-page > * {
+  margin-bottom: 30px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.map-container {
+  height: 60%;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align:center;
+}
+
+.game-of-the-season-container{
+  height: 140%;
+  width: 90%;
+  margin: auto;
+}
+
+.gots-video{
+  height: 55%;
+  width: 100%;
+  text-align:center;
+}
+
+.pick-video{
+  width: 70%;
+  height: 90%;
+}
+.gots-title, .top10-title, .team-map-title {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.team-map{
+  width: 90%;
+  height: 90%;
+}
+
+.top-10-container{
+  height: 60%;
+  margin-top: 80px;
+}
+
+.top10-title{
+  margin-bottom: 10px;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 127px;
+  height: 127px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #C9082A;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-box-back > h2{
+  padding: 40% 0;
+  vertical-align: middle;
+  height: 100%;
+  margin: auto;
+  color: white;
+}
+
+.flip-box-back, .flip-box-back-lal > h2{
+  vertical-align: middle;
+  height: 100%;
+  margin: auto;
+  color: white;
+}
+
+
+.flip-box-lal {
+  margin: 0;
+  background-color: transparent;
+  width: 125px;
+  height: 125px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.flip-box-inner-lal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box-lal:hover .flip-box-inner-lal {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front-lal, .flip-box-back-lal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-box-front-lal {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back-lal {
+  background-color: #17408B;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box-back-lal > h2{
+  padding: 40% 0;
+  vertical-align: middle;
+  height: 100%;
+  margin: auto;
+  color: white;
+}
+
